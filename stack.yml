@@ -6,3 +6,5 @@ functions:
     lang: python3
     handler: ./codecardpy
     image: jit2600/codecardpy:latest
+    environment:
+      content_type: application/json
