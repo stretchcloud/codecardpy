@@ -8,3 +8,4 @@ functions:
     image: jit2600/codecardpy:latest
     environment:
       content_type: application/json
+      write_debug: true
