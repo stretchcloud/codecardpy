@@ -1,0 +1,11 @@
+provider:
+  name: faas
+  gateway: http://129.213.194.84:8080
+functions:
+  codecardpy:
+    lang: python
+    handler: ./codecardpy
+    image: jit2600/codecardpy:latest
+    environment:
+      write_debug: true
+
